@@ -1,0 +1,10 @@
+x peak = 934
+y peak = 382
+
+template width = 166
+template height = 106
+
+middle of template = (1017, 435)
+
+time to run steps 1-6: 0.335 seconds
+time to run steps 1-4: 0.141 seconds
