@@ -1,0 +1,10 @@
+ball = imread('ball.png');
+gull = imread('gull.png');
+
+imtool(ball);
+imtool(gull);
+
+f_ball = fft2(ifftshift(ball));
+f_gull = fft2(ifftshift(gull));
+
+[ball_phase, ball_mag] = cart2pol(f_ball);

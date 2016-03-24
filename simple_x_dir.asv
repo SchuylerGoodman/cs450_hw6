@@ -1,0 +1,17 @@
+N = 256;
+
+x = 0:N-1;
+
+freq = 1;
+y1 = sin(2*pi*freq*x/N);
+xy1 = repmat(y, N, 1);
+
+freq = 32;
+y32 = sin(2*pi*freq*x/N);
+xy32 = repmat(y, N, 1);
+
+freq = 100;
+y100 = sin(2*pi*freq*x/N);
+xy1 = repmat(y, N, 1);
+
+imtool(xy);
